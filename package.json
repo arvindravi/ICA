@@ -9,5 +9,9 @@
     "express": "3.1.0",
     "ejs": "*",
     "moment": "~2.4.0"
+  },
+  "subdomain": "ischinaawake",
+  "engines": {
+    "node": "0.10.x"
   }
 }
