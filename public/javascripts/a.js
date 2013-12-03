@@ -13,8 +13,8 @@ function setTime(time) {
 
 function isAwake(time) {
 	var timeArray = time.split(":")
-	// var hours = parseInt(timeArray[0])
-	// var minutes = parseInt(timeArray[1])
+	var hours = parseInt(timeArray[0])
+	var minutes = parseInt(timeArray[1])
 	var seconds = parseInt(timeArray[2].split(" ")[0])
 	var merd = timeArray[2].split(" ")[1]
 
