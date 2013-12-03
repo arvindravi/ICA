@@ -13,18 +13,18 @@ function setTime(time) {
 
 function isAwake(time) {
 	var timeArray = time.split(":")
-	var hours = parseInt(timeArray[0])
-	var minutes = parseInt(timeArray[1])
+	// var hours = parseInt(timeArray[0])
+	// var minutes = parseInt(timeArray[1])
 	var seconds = parseInt(timeArray[2].split(" ")[0])
 	var merd = timeArray[2].split(" ")[1]
-	if( hours >= 6 && merd == 'am' || 
-		hours < 10 && merd == 'pm')
+
+	if(( ((hours >= 6) && (hours <= 11)) && merd == "am") || (hours < 10 && merd == "pm") || (hours == 12 && merd == "pm"))
 	{
 		awakeStatus = true;
 	}
-	else if( (12 < hours < 1) && merd == 'pm')
-	{
-		awakeStatus = true;
+	else if (hours == 12 && merd == "am")
+	{	
+		awakeStatus = false;
 	}
 	else
 	{
