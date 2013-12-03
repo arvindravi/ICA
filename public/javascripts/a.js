@@ -1,5 +1,5 @@
 function getCurrentTime() {
-	return moment().tz("Asia/Shanghai").format("hh:mm:ss a");
+	return moment().tz("Asia/Shanghai").format("h:mm:ss a");
 }
 
 var time = getCurrentTime();
