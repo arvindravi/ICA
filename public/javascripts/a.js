@@ -8,7 +8,7 @@ function setTime(time) {
 	// var americanTime = moment().tz("America/Los_Angeles").format("hh:mm:ss a")
 	// var chineseTime = moment().tz("Asia/Shanghai").format("hh:mm:ss a")
 	// document.getElementById('america').innerHTML = americanTime;
-	document.getElementById('time').innerHTML = "Its " + time + " right now.";
+	document.getElementById('time').innerHTML = "It\'s " + time + " right now.";
 }
 
 function isAwake(time) {
