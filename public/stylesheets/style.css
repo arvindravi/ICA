@@ -15,10 +15,9 @@ a {
 	font-size: 50px;
 }
 
-b{
-	font-family: 'Oxygen', sans-serif;
-	font-size: 50px;
-	font-weight: normal !important;
+#contact{
+	font-family: 'Andika', sans-serif;
+	font-size: 15px;
 }
 
 #china {
@@ -50,4 +49,10 @@ b{
 
 .footer a:hover {
 	color: inherit;
+}
+
+#ltc_address {
+	text-align: center;
+	font-family: 'Andika', sans-serif;
+	font-size: 12px;
 }
