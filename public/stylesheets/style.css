@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Signika+Negative|Andika|Open+Sans|Lobster|Snippet);
+@import url(http://fonts.googleapis.com/css?family=Andika|Open+Sans|Snippet|Oxygen);
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -11,10 +11,15 @@ a {
 }
 
 #title h1{
-	font-family: 'Snippet', sans-serif;
+	font-family: 'Andika', sans-serif;
 	font-size: 50px;
 }
 
+b{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 50px;
+	font-weight: normal !important;
+}
 
 #china {
 	font-family: 'Andika', sans-serif;
