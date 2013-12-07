@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Andika|Open+Sans|Snippet|Oxygen);
 body {
-  padding: 50px;
+  padding: 30px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   overflow: hidden;
   
@@ -35,7 +35,6 @@ a {
 }
 
 .footer {
-	text-align: center;
 	color: gray;
 	font-family: 'Andika' , sans-serif;
 	font-size: 12px;
@@ -51,8 +50,6 @@ a {
 	color: inherit;
 }
 
-#ltc_address {
-	text-align: center;
-	font-family: 'Andika', sans-serif;
-	font-size: 12px;
+.fund {
+	margin-left: 40px;
 }
